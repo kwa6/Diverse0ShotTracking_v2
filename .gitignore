@@ -5,7 +5,6 @@
 dist
 ex
 subgit
-slurm
 out
 cache
 .vscode/
