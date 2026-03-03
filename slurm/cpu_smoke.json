@@ -1,0 +1,18 @@
+{
+  "experiment": "cpu_smoke",
+  "approach": "T5Tracker",
+  "base": "google/flan-t5-small",
+  "train_data": "data/dsg5k/train",
+  "eval_data": "data/dsg5k/train",
+  "train_downsample": 50,
+  "eval_dialogue_downsample": 5,
+  "epochs": 0,
+  "calculate_eval_perplexity": false,
+  "calculate_eval_gen_metrics": true,
+  "eval_all_slots_per_domain": true,
+  "prediction_lowercase": true,
+  "num_beams": 1,
+  "max_output_length": 16,
+  "rng_seed": 0,
+  "notifications": false
+}
